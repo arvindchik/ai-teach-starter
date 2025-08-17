@@ -10,15 +10,15 @@ export default function Navbar() {
         </Link>
 
         <div className="flex gap-4 items-center">
-          {/* Updated link to Machine Learning page */}
-          <Link href="/machine-learning">
-            <span className="px-3 py-1 rounded hover:bg-gray-100">Machine Learning</span>
+          <Link href="/lessons/machine-learning">
+            <span>Machine Learning</span>
           </Link>
-
+          <Link href="/lessons/logistic-regression">
+            <span>Lessons</span>
+          </Link>
           <Link href="/playground">
             <span className="px-3 py-1 rounded hover:bg-gray-100">Playground</span>
           </Link>
-
           <button className="px-3 py-1 bg-blue-600 text-white rounded">Sign in</button>
         </div>
       </div>

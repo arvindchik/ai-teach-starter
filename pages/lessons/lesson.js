@@ -1,5 +1,6 @@
-import LessonContent from '../components/LessonContent';
-import SampleDemo from '../components/SampleDemo';
+import LessonContent from '../../components/LessonContent';
+import SampleDemo from '../../components/SampleDemo';
+
 
 export default function LessonPage() {
   return (

@@ -13,9 +13,7 @@ export default function Navbar() {
           <Link href="/lessons/machine-learning">
             <span>Machine Learning</span>
           </Link>
-          <Link href="/lessons/logistic-regression">
-            <span>Lessons</span>
-          </Link>
+
           <Link href="/playground">
             <span className="px-3 py-1 rounded hover:bg-gray-100">Playground</span>
           </Link>
